@@ -29,7 +29,7 @@ export function TestimonialsSection() {
   ]
 
   return (
-    <section className="py-20 bg-gradient-secondary">
+    <section id="depoimentos" className="py-20 bg-gradient-secondary">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">
@@ -41,7 +41,7 @@ export function TestimonialsSection() {
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Conheça algumas das experiências reais de pessoas que encontraram equilíbrio 
-            e bem-estar através das terapias holísticas.
+            e bem-estar através das terapias integrativas com Oséias Mendes na Clínica Allmed.
           </p>
         </div>
 

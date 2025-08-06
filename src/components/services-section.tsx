@@ -30,15 +30,15 @@ export function ServicesSection() {
   ]
 
   return (
-    <section className="py-20 bg-gradient-secondary">
+    <section id="terapias" className="py-20 bg-gradient-secondary">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Serviços Especializados
+            Terapias e Benefícios
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Com mais de 30 anos de experiência, oferecemos um conjunto abrangente de terapias holísticas 
-            para promover seu bem-estar físico, emocional e espiritual.
+            Com mais de 30 anos de experiência, Oséias Mendes oferece um conjunto abrangente de terapias integrativas 
+            para promover seu bem-estar físico, emocional e energético através de métodos naturais e personalizados.
           </p>
         </div>
 

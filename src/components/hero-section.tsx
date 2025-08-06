@@ -4,7 +4,7 @@ import heroImage from "@/assets/hero-holistic.jpg"
 
 export function HeroSection() {
   const whatsappNumber = "5511999999999" // Substitua pelo número real
-  const whatsappMessage = "Olá! Gostaria de saber mais sobre as terapias holísticas e agendar uma consulta."
+  const whatsappMessage = "Olá Oséias! Gostaria de agendar uma consulta e saber mais sobre as terapias integrativas."
 
   const handleWhatsAppClick = (action: string) => {
     const encodedMessage = encodeURIComponent(`${whatsappMessage} (${action})`)
@@ -12,7 +12,7 @@ export function HeroSection() {
   }
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
         <img
@@ -43,7 +43,7 @@ export function HeroSection() {
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 animate-fade-in leading-tight">
             Transforme sua vida com
             <span className="block text-warm-cream mt-2">
-              terapias holísticas
+              terapias integrativas
             </span>
             <span className="block text-calm-blue mt-2">
               personalizadas
@@ -51,23 +51,32 @@ export function HeroSection() {
           </h1>
 
           {/* Subtitle */}
-          <p className="text-xl md:text-2xl mb-8 text-warm-cream opacity-90 animate-fade-in max-w-3xl mx-auto leading-relaxed" style={{ animationDelay: '0.3s' }}>
-            Descubra o equilíbrio emocional e físico através de mais de 30 anos de experiência em terapias holísticas, iridologia e análise do estilo de vida.
+          <p className="text-xl md:text-2xl mb-4 text-warm-cream opacity-90 animate-fade-in max-w-3xl mx-auto leading-relaxed" style={{ animationDelay: '0.3s' }}>
+            <span className="block mb-2 text-2xl md:text-3xl font-semibold">"Cuidar da sua saúde é um ato de amor-próprio."</span>
+            Há mais de três décadas, Oséias Mendes dedica-se a transformar vidas por meio de terapias integrativas e personalizadas.
           </p>
+
+          {/* Professional intro */}
+          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 mb-8 animate-fade-in" style={{ animationDelay: '0.4s' }}>
+            <p className="text-lg text-warm-cream opacity-95 leading-relaxed">
+              <span className="font-semibold text-white">Oséias Mendes – Terapeuta Integrativo e Fundador da Clínica Allmed</span><br />
+              Fundador da Clínica Allmed, ele combina conhecimento profundo, sensibilidade e técnicas naturais para promover equilíbrio, saúde e bem-estar duradouros.
+            </p>
+          </div>
 
           {/* Benefits highlights */}
           <div className="grid md:grid-cols-3 gap-6 mb-12 animate-fade-in" style={{ animationDelay: '0.6s' }}>
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
-              <h3 className="text-lg font-semibold mb-2">Equilíbrio Emocional</h3>
-              <p className="text-warm-cream opacity-80">Encontre a paz interior e harmonia</p>
+              <h3 className="text-lg font-semibold mb-2">"Uma vida mais leve e equilibrada"</h3>
+              <p className="text-warm-cream opacity-80">Começa com o autoconhecimento</p>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
-              <h3 className="text-lg font-semibold mb-2">Alívio do Estresse</h3>
-              <p className="text-warm-cream opacity-80">Liberte-se das tensões do dia a dia</p>
+              <h3 className="text-lg font-semibold mb-2">"Você merece viver em harmonia"</h3>
+              <p className="text-warm-cream opacity-80">Corpo, mente e emoções em equilíbrio</p>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
-              <h3 className="text-lg font-semibold mb-2">Autoconhecimento</h3>
-              <p className="text-warm-cream opacity-80">Descubra seu potencial interior</p>
+              <h3 className="text-lg font-semibold mb-2">Resultados Comprovados</h3>
+              <p className="text-warm-cream opacity-80">30+ anos de experiência e sucesso</p>
             </div>
           </div>
 
@@ -76,21 +85,21 @@ export function HeroSection() {
             <HeroButton
               variant="whatsapp"
               size="lg"
-              onClick={() => handleWhatsAppClick("Agende agora")}
+              onClick={() => handleWhatsAppClick("Fale com Oséias Mendes agora")}
               className="gap-3"
             >
               <MessageCircle className="w-6 h-6" />
-              Agende agora pelo WhatsApp
+              Fale com Oséias Mendes agora
             </HeroButton>
             
             <HeroButton
               variant="outline"
               size="lg"
-              onClick={() => handleWhatsAppClick("Fale direto comigo")}
+              onClick={() => handleWhatsAppClick("Agende sua sessão personalizada")}
               className="text-white border-white/50 hover:bg-white hover:text-primary gap-3"
             >
               <Heart className="w-6 h-6" />
-              Fale direto comigo
+              Agende sua sessão personalizada
             </HeroButton>
           </div>
 

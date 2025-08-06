@@ -4,7 +4,7 @@ import { MessageCircle, Phone, Mail, MapPin, Clock, Heart } from "lucide-react"
 
 export function ContactSection() {
   const whatsappNumber = "5511999999999" // Substitua pelo número real
-  const whatsappMessage = "Olá! Gostaria de agendar uma consulta e saber mais sobre as terapias holísticas."
+  const whatsappMessage = "Olá Oséias! Gostaria de agendar uma consulta na Clínica Allmed."
 
   const handleWhatsAppClick = (action: string) => {
     const encodedMessage = encodeURIComponent(`${whatsappMessage} (${action})`)
@@ -39,16 +39,16 @@ export function ContactSection() {
   ]
 
   return (
-    <section className="py-20 bg-background">
+    <section id="contato" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Comece Sua Transformação Hoje
+            Quero Iniciar Minha Jornada de Cura
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Dê o primeiro passo em direção ao seu bem-estar. Entre em contato e descubra 
-            como as terapias holísticas podem transformar sua vida.
+            Dê o primeiro passo em direção ao seu bem-estar. Entre em contato com Oséias Mendes 
+            e descubra como as terapias integrativas podem transformar sua vida na Clínica Allmed.
           </p>
         </div>
 
@@ -91,14 +91,17 @@ export function ContactSection() {
                   <Heart className="w-16 h-16 text-primary-foreground" />
                 </div>
                 <h3 className="text-2xl font-bold text-foreground mb-2">
-                  [Nome do Terapeuta]
+                  Oséias Mendes
                 </h3>
+                <p className="text-primary font-semibold mb-2">
+                  Terapeuta Integrativo
+                </p>
                 <p className="text-muted-foreground mb-4">
-                  Terapeuta Holístico • 30+ anos de experiência
+                  Fundador da Clínica Allmed • 30+ anos de experiência
                 </p>
                 <div className="bg-card rounded-xl p-4">
                   <p className="text-sm text-muted-foreground italic">
-                    "Espaço reservado para sua foto profissional e uma breve mensagem pessoal sobre sua missão e paixão pelas terapias holísticas."
+                    "Espaço reservado para foto profissional de Oséias Mendes e uma breve mensagem pessoal sobre sua missão e paixão pelas terapias integrativas."
                   </p>
                 </div>
               </CardContent>
@@ -114,38 +117,38 @@ export function ContactSection() {
                   <h3 className="text-3xl font-bold mb-4">
                     Pronto para Começar?
                   </h3>
-                  <p className="text-primary-foreground/90 text-lg leading-relaxed">
-                    Agende agora sua primeira consulta e descubra o caminho para uma vida mais equilibrada e plena.
-                  </p>
+                <p className="text-primary-foreground/90 text-lg leading-relaxed">
+                  Agende agora sua primeira consulta na Clínica Allmed e descubra o caminho para uma vida mais equilibrada e plena com Oséias Mendes.
+                </p>
                 </div>
 
                 <div className="space-y-4">
                   <HeroButton
                     variant="secondary"
                     size="lg"
-                    onClick={() => handleWhatsAppClick("Agende agora pelo WhatsApp")}
+                    onClick={() => handleWhatsAppClick("Fale com Oséias Mendes agora")}
                     className="w-full bg-white text-primary hover:bg-white/90 border-none"
                   >
                     <MessageCircle className="w-6 h-6 mr-3" />
-                    Agende agora pelo WhatsApp
+                    Fale com Oséias Mendes agora
                   </HeroButton>
 
                   <HeroButton
                     variant="outline"
                     size="lg"
-                    onClick={() => handleWhatsAppClick("Fale direto comigo")}
+                    onClick={() => handleWhatsAppClick("Agende sua sessão personalizada")}
                     className="w-full border-white/50 text-white hover:bg-white hover:text-primary"
                   >
-                    Fale direto comigo
+                    Agende sua sessão personalizada
                   </HeroButton>
 
                   <HeroButton
                     variant="outline"
                     size="lg"
-                    onClick={() => handleWhatsAppClick("Comece sua transformação hoje")}
+                    onClick={() => handleWhatsAppClick("Quero iniciar minha jornada de cura")}
                     className="w-full border-white/50 text-white hover:bg-white hover:text-primary"
                   >
-                    Comece sua transformação hoje
+                    Quero iniciar minha jornada de cura
                   </HeroButton>
                 </div>
 
