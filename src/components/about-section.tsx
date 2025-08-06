@@ -110,8 +110,9 @@ export function AboutSection() {
 
           {/* Highlights & Specializations */}
           <div className="space-y-8">
+
             {/* Professional Photo Placeholder */}
-            <Card className="bg-card border-primary/20 overflow-hidden">
+            <Card className="border-primary/20 overflow-hidden bg-transparent">
               <CardContent className="p-8 text-center">
                 <div className="w-40 h-40 bg-gradient-primary rounded-full mx-auto mb-6 flex items-center justify-center overflow-hidden">
                   <img src="./oseias.png" className="w-full h-full object-cover rounded-full" />
@@ -119,21 +120,13 @@ export function AboutSection() {
                 <h3 className="text-2xl font-bold text-foreground mb-2">
                   Oséias Mendes
                 </h3>
-                <p className="text-primary font-semibold mb-2">
-                  Terapeuta Integrativo
-                </p>
-                <p className="text-muted-foreground mb-4">
-                  Fundador da Clínica Allmed
+                <p className="text-primary opacity-80 font-semibold mb-2">
+                  Terapeuta Iridologista
                 </p>
                 <div className="flex justify-center gap-1 mb-4">
                   {[...Array(5)].map((_, i) => (
                     <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
                   ))}
-                </div>
-                <div className="bg-primary/5 rounded-xl p-4">
-                  <p className="text-sm text-muted-foreground italic">
-                    Espaço reservado para foto profissional do Oséias Mendes
-                  </p>
                 </div>
               </CardContent>
             </Card>

@@ -203,7 +203,7 @@ export function ClinicSection() {
                     <MapPin className="w-5 h-5 text-primary" />
                     <div>
                       <p className="font-medium text-foreground">Localização</p>
-                      <p className="text-sm text-muted-foreground">São Paulo, SP - Endereço será atualizado</p>
+                      <p className="text-sm text-muted-foreground">Rua João Lobo Filho, 250, sala 302</p>
                     </div>
                   </div>
                   

@@ -1,6 +1,9 @@
 import { HeroButton } from "@/components/ui/hero-button"
 import { MessageCircle, Heart, Sparkles } from "lucide-react"
 import heroImage from "@/assets/hero-holistic.jpg"
+import { Card, CardContent } from "@/components/ui/card"
+import { Star } from "lucide-react"
+
 
 export function HeroSection() {
   const whatsappNumber = "5585991196202" // Substitua pelo número real
@@ -39,6 +42,8 @@ export function HeroSection() {
             </div>
           </div>
 
+          
+
           {/* Main Title */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 animate-fade-in leading-tight">
             Transforme sua vida com
@@ -55,6 +60,14 @@ export function HeroSection() {
             <span className="block mb-2 text-2xl md:text-3xl font-semibold">"Cuidar da sua saúde é um ato de amor-próprio."</span>
             Há mais de três décadas, Oséias Mendes dedica-se a transformar vidas por meio de terapias integrativas e personalizadas.
           </p>
+          {/* Professional Photo Placeholder */}
+            <Card className="border-primary/20 overflow-hidden bg-transparent">
+              <CardContent className="p-8 text-center">
+                <div className="w-40 h-40 bg-gradient-primary rounded-full mx-auto flex items-center justify-center overflow-hidden">
+                  <img src="./oseias.png" className="w-full h-full object-cover rounded-full" />
+                </div>
+              </CardContent>
+            </Card>
 
           {/* Professional intro */}
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 mb-8 animate-fade-in" style={{ animationDelay: '0.4s' }}>

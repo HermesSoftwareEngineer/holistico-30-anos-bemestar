@@ -27,7 +27,7 @@ export function ContactSection() {
     {
       icon: <MapPin className="w-6 h-6" />,
       title: "Localização",
-      content: "Fortaleza, CE",
+      content: "Rua João Lobo Filho, 250, sala 302, Fortaleza - CE",
       description: "Atendimento presencial e online"
     },
     {
@@ -99,11 +99,6 @@ export function ContactSection() {
                 <p className="text-muted-foreground mb-4">
                   Fundador da Clínica Allmed • 30+ anos de experiência
                 </p>
-                <div className="bg-card rounded-xl p-4">
-                  <p className="text-sm text-muted-foreground italic">
-                    "Espaço reservado para foto profissional de Oséias Mendes e uma breve mensagem pessoal sobre sua missão e paixão pelas terapias integrativas."
-                  </p>
-                </div>
               </CardContent>
             </Card>
           </div>

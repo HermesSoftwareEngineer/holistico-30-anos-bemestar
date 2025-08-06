@@ -103,14 +103,6 @@ export function TestimonialsSection() {
             </div>
           </div>
         </div>
-
-        {/* Note about testimonials */}
-        <div className="text-center mt-12">
-          <p className="text-sm text-muted-foreground italic max-w-2xl mx-auto">
-            <strong>Nota:</strong> Esta seção está preparada para receber seus depoimentos reais. 
-            Os exemplos acima são ilustrativos e serão substituídos pelos feedbacks genuínos dos seus clientes.
-          </p>
-        </div>
       </div>
     </section>
   )
