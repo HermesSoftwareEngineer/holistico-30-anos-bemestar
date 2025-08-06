@@ -3,7 +3,7 @@ import { MessageCircle, Heart, Sparkles } from "lucide-react"
 import heroImage from "@/assets/hero-holistic.jpg"
 
 export function HeroSection() {
-  const whatsappNumber = "5511999999999" // Substitua pelo número real
+  const whatsappNumber = "5585991196202" // Substitua pelo número real
   const whatsappMessage = "Olá Oséias! Gostaria de agendar uma consulta e saber mais sobre as terapias integrativas."
 
   const handleWhatsAppClick = (action: string) => {

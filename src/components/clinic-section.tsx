@@ -4,7 +4,7 @@ import { HeroButton } from "@/components/ui/hero-button"
 import { MapPin, Users, Award, Heart, MessageCircle, Sparkles, Clock, Shield } from "lucide-react"
 
 export function ClinicSection() {
-  const whatsappNumber = "5511999999999" // Substitua pelo número real
+  const whatsappNumber = "5585991196202" // Substitua pelo número real
   const whatsappMessage = "Olá! Gostaria de conhecer a Clínica Allmed e agendar uma visita."
 
   const handleWhatsAppClick = () => {

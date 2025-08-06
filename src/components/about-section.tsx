@@ -4,7 +4,7 @@ import { HeroButton } from "@/components/ui/hero-button"
 import { Award, Heart, Users, MessageCircle, Star, Leaf } from "lucide-react"
 
 export function AboutSection() {
-  const whatsappNumber = "5511999999999" // Substitua pelo número real
+  const whatsappNumber = "5585991196202" // Substitua pelo número real
   const whatsappMessage = "Olá Oséias! Gostaria de conhecer mais sobre seu trabalho e agendar uma consulta."
 
   const handleWhatsAppClick = () => {
@@ -113,8 +113,8 @@ export function AboutSection() {
             {/* Professional Photo Placeholder */}
             <Card className="bg-card border-primary/20 overflow-hidden">
               <CardContent className="p-8 text-center">
-                <div className="w-40 h-40 bg-gradient-primary rounded-full mx-auto mb-6 flex items-center justify-center">
-                  <Heart className="w-20 h-20 text-primary-foreground" />
+                <div className="w-40 h-40 bg-gradient-primary rounded-full mx-auto mb-6 flex items-center justify-center overflow-hidden">
+                  <img src="./oseias.png" className="w-full h-full object-cover rounded-full" />
                 </div>
                 <h3 className="text-2xl font-bold text-foreground mb-2">
                   Oséias Mendes

@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { MessageCircle, Phone, Mail, MapPin, Clock, Heart } from "lucide-react"
 
 export function ContactSection() {
-  const whatsappNumber = "5511999999999" // Substitua pelo número real
+  const whatsappNumber = "5585991196202" // Substitua pelo número real
   const whatsappMessage = "Olá Oséias! Gostaria de agendar uma consulta na Clínica Allmed."
 
   const handleWhatsAppClick = (action: string) => {
@@ -15,26 +15,26 @@ export function ContactSection() {
     {
       icon: <Phone className="w-6 h-6" />,
       title: "Telefone/WhatsApp",
-      content: "+55 (11) 99999-9999",
+      content: "+55 (85) 99119-6202",
       description: "Atendimento personalizado"
     },
     {
       icon: <Mail className="w-6 h-6" />,
       title: "E-mail",
-      content: "contato@terapiaholistica.com",
+      content: "oseiasmendes63@gmail.com",
       description: "Resposta em até 24h"
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       title: "Localização",
-      content: "São Paulo, SP",
+      content: "Fortaleza, CE",
       description: "Atendimento presencial e online"
     },
     {
       icon: <Clock className="w-6 h-6" />,
       title: "Horário de Atendimento",
-      content: "Seg a Sex: 9h às 18h",
-      description: "Sábados mediante agendamento"
+      content: "Seg a Sex: 8h às 18h",
+      description: "Mediante agendamento"
     }
   ]
 
@@ -87,8 +87,8 @@ export function ContactSection() {
             {/* Professional Photo Placeholder */}
             <Card className="bg-gradient-secondary border-primary/20 overflow-hidden">
               <CardContent className="p-8 text-center">
-                <div className="w-32 h-32 bg-gradient-primary rounded-full mx-auto mb-6 flex items-center justify-center">
-                  <Heart className="w-16 h-16 text-primary-foreground" />
+                <div className="w-40 h-40 bg-gradient-primary rounded-full mx-auto mb-6 flex items-center justify-center overflow-hidden">
+                  <img src="./oseias.png" className="w-full h-full object-cover rounded-full" />
                 </div>
                 <h3 className="text-2xl font-bold text-foreground mb-2">
                   Oséias Mendes
@@ -174,15 +174,6 @@ export function ContactSection() {
                 <div className="text-sm text-muted-foreground">Clientes Satisfeitos</div>
               </div>
             </div>
-
-            {/* Note */}
-            <Card className="bg-warm-cream/20 border-primary/30">
-              <CardContent className="p-6 text-center">
-                <p className="text-sm text-muted-foreground">
-                  <strong>Nota:</strong> Lembre-se de atualizar o número do WhatsApp e demais informações de contato com seus dados reais.
-                </p>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </div>

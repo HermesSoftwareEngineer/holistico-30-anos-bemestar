@@ -7,7 +7,7 @@ export function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isOpen, setIsOpen] = useState(false)
 
-  const whatsappNumber = "5511999999999" // Substitua pelo número real
+  const whatsappNumber = "5585991196202" // Substitua pelo número real
   const whatsappMessage = "Olá Oséias! Gostaria de agendar uma consulta e saber mais sobre as terapias integrativas."
 
   const handleWhatsAppClick = () => {
