@@ -211,8 +211,8 @@ export function ClinicSection() {
                     <Clock className="w-5 h-5 text-primary" />
                     <div>
                       <p className="font-medium text-foreground">Horário de Funcionamento</p>
-                      <p className="text-sm text-muted-foreground">Segunda à Sexta: 9h às 18h</p>
-                      <p className="text-sm text-muted-foreground">Sábados: Mediante agendamento</p>
+                      <p className="text-sm text-muted-foreground">Terça à Sexta: 8h às 18h</p>
+                      <p className="text-sm text-muted-foreground">Mediante agendamento</p>
                     </div>
                   </div>
                   

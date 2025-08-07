@@ -39,8 +39,7 @@ export function AboutSection() {
     "Iridologia Comportamental e Clínica",
     "Análise do Estilo de Vida",
     "Terapias Integrativas",
-    "Aromaterapia e Essências Florais",
-    "Reiki e Energização",
+    "Florais Biosinérgicos",
     "Nutrição Holística"
   ]
 

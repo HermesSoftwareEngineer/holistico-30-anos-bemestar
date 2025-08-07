@@ -33,7 +33,7 @@ export function ContactSection() {
     {
       icon: <Clock className="w-6 h-6" />,
       title: "Horário de Atendimento",
-      content: "Seg a Sex: 8h às 18h",
+      content: "Ter a Sex: 8h às 18h",
       description: "Mediante agendamento"
     }
   ]
