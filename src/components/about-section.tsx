@@ -55,7 +55,7 @@ export function AboutSection() {
             Conheça Oséias Mendes
           </h2>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            Terapeuta Integrativo e Fundador da Clínica Allmed
+            Terapeuta Iridologista Holístico
           </p>
         </div>
 
@@ -69,7 +69,7 @@ export function AboutSection() {
               
               <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
                 <p>
-                  <strong className="text-foreground">Há mais de três décadas</strong>, Oséias Mendes dedica-se a transformar vidas por meio de terapias integrativas e personalizadas. Como fundador da Clínica Allmed, ele combina conhecimento profundo, sensibilidade e técnicas naturais para promover equilíbrio, saúde e bem-estar duradouros.
+                  <strong className="text-foreground">Há mais de três décadas</strong>, Oséias Mendes dedica-se a transformar vidas por meio de terapias integrativas e personalizadas. Ele combina conhecimento profundo, iridologia e técnicas naturais para promover equilíbrio, saúde e bem-estar duradouros.
                 </p>
                 
                 <p>
