@@ -97,7 +97,7 @@ export function ContactSection() {
                   Terapeuta Integrativo
                 </p>
                 <p className="text-muted-foreground mb-4">
-                  Fundador da Clínica Allmed • 30+ anos de experiência
+                  Terapeuta da Clínica Allmed • 30+ anos de experiência
                 </p>
               </CardContent>
             </Card>
